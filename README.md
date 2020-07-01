@@ -1,2 +1,3 @@
-# html-css-learning
-learning HTML, CSS
+# Learning & Practice: **HTML, CSS**
+
+A simple one page website
