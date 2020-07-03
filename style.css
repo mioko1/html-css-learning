@@ -12,29 +12,39 @@ body{
 h1{
     font-size: 2rem;
     position: absolute;
-    left: 30%;
+    top: 10%;
+    left: 10%;
     font-family: 'Indie Flower', cursive;
 }
 ul{
-    border: 1px solid red;
+    border: 1px solid white;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 4vh;
+    font-size: 5vh;
     position: absolute;
-    top:50%;
-    left:30%;
+    top: 80%;
+    right: 10%;
+    //background-color: hsla(360, 100%, 67%, 0.32);
+    background-color: hsla(41, 44%, 100%, 0.28);
+    border-radius: 10%;
 }
 li{
     list-style-type:none;
     padding: 20px;
     display: inline-block;
     font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+    color: black;
 }
 
 header{
-    height: 18vh;
+    height: 98vh;
     position: relative;
+    background: url(pics/cats.jpg) no-repeat;
+    background-size: cover;
+}
+img{
+    width: 100%; 
+    height: 100%;
 }
 
 /* ------------ COMMON ELEMENTS ------------ */
@@ -63,7 +73,7 @@ p{
 
 /* ------------ COMPANY ------------ */
 #company{
-    height: 78vh;
+    height: 98vh;
 }
 
 /* ------------ CONTACT ------------ */
