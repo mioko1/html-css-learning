@@ -76,9 +76,29 @@ p{
     height: 98vh;
 }
 
+/* ------------ PRODUCTS ------------ */
+#products img{
+    width: 33%;
+    height: 50%;
+}
+
+/* ------------ TEAM ------------ */
+#team img{
+    background: url(pics/worker.jpg) no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 70%;
+    
+    display: inline-block;
+}
+
+
 /* ------------ CONTACT ------------ */
 #contact{
     height: 80vh;
+    background: url(pics/contact.jpg) no-repeat;
+    background-size: cover;
+    //position: relative;
 }
 
 /* ------------ FOOTER ------------ */
@@ -91,5 +111,11 @@ footer{
     margin-right: auto;
 }
 .logo{
-    border-radius: 30%;
+    border-radius: 40%;
+    border: 0.5px solid white;
+    width: 40px;
+    height: 40px;
+}
+footer p{
+    display: inline-block;
 }
