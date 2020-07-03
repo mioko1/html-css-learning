@@ -1,7 +1,7 @@
 
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;        
 }
 body{
    background-color: cornflowerblue;
@@ -16,13 +16,9 @@ ul{
     margin-left: auto;
     margin-right: auto;
     font-size: 4vh;
-    position: absolute;
-    top:50%;
-    left:30%;
 }
 li{
     list-style-type:none;
-    padding: 20px;
     display: inline-block;
 }
 hr{
@@ -32,7 +28,6 @@ hr{
 }
 header{
     height: 18vh;
-    position: relative;
 }
 section{
     border: 0.1vh solid blue;
