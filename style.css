@@ -23,7 +23,6 @@ ul{
     position: absolute;
     top: 80%;
     right: 10%;
-    //background-color: hsla(360, 100%, 67%, 0.32);
     background-color: hsla(41, 44%, 100%, 0.28);
     border-radius: 10%;
 }
@@ -39,8 +38,8 @@ li{
 header{
     height: 98vh;
     position: relative;
-    background: url(pics/cats.jpg) no-repeat center center fixed; /* pictures stay at the same place!!!*/
-    background-size: 100%;
+    background: url(pics/cats.jpg) no-repeat center center fixed; /* pictures at the same place!!!*/
+    background-size: 100% 100%;
 }
 img{
     width: 100%; 
@@ -102,8 +101,8 @@ p{
 #contact{
     height: 80vh;
     position: relative;
-    background: url(pics/contact.jpg) no-repeat center right fixed; /* pictures stay at the same place!!!*/
-    background-size: contain;
+    background: url(pics/contact.jpg) no-repeat center right fixed; /* pictures at the same place!!!*/
+    background-size: auto;
 }
 #contact p{
     width: 40%;
