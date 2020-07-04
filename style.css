@@ -39,8 +39,8 @@ li{
 header{
     height: 98vh;
     position: relative;
-    background: url(pics/cats.jpg) no-repeat;
-    background-size: cover;
+    background: url(pics/cats.jpg) no-repeat center center fixed; /* pictures stay at the same place!!!*/
+    background-size: 100%;
 }
 img{
     width: 100%; 
@@ -78,27 +78,35 @@ p{
 
 /* ------------ PRODUCTS ------------ */
 #products img{
-    width: 33%;
+    width: 32%;
     height: 50%;
+    float: left;
+    display: inline-block;
+}
+#products{
+    text-align: center;
 }
 
 /* ------------ TEAM ------------ */
 #team img{
-    background: url(pics/worker.jpg) no-repeat;
-    background-size: cover;
     width: 45%;
     height: 70%;
-    
+    padding: 5px;
     display: inline-block;
 }
-
+#team{
+    text-align: center;
+}
 
 /* ------------ CONTACT ------------ */
 #contact{
     height: 80vh;
-    background: url(pics/contact.jpg) no-repeat;
-    background-size: cover;
-    //position: relative;
+    position: relative;
+    background: url(pics/contact.jpg) no-repeat center right fixed; /* pictures stay at the same place!!!*/
+    background-size: contain;
+}
+#contact p{
+    width: 40%;
 }
 
 /* ------------ FOOTER ------------ */
